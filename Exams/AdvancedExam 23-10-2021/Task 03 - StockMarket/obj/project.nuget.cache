@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l5mF8Teo2lWFSRo38MqrO3Gj1++4oa+YqDmU4JEYmgXL+e6Vaa+bJkE3tb5t5sv239krEE8zOz+S3QpZWTPIUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mytag\\source\\repos\\AdvancedExam\\Task 03 - StockMarket\\StockMarket.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mytag\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
