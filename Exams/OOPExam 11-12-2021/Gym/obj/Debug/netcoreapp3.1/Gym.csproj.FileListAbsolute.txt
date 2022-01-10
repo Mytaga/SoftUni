@@ -1,0 +1,26 @@
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\bin\Debug\netcoreapp3.1\Gym.exe
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\bin\Debug\netcoreapp3.1\Gym.deps.json
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\bin\Debug\netcoreapp3.1\Gym.runtimeconfig.json
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\bin\Debug\netcoreapp3.1\Gym.runtimeconfig.dev.json
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\bin\Debug\netcoreapp3.1\Gym.dll
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\bin\Debug\netcoreapp3.1\Gym.pdb
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.csproj.AssemblyReference.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.AssemblyInfoInputs.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.AssemblyInfo.cs
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.csproj.CoreCompileInputs.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.dll
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.pdb
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\Skeleton\Gym\obj\Debug\netcoreapp3.1\Gym.genruntimeconfig.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\bin\Debug\netcoreapp3.1\Gym.exe
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\bin\Debug\netcoreapp3.1\Gym.deps.json
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\bin\Debug\netcoreapp3.1\Gym.runtimeconfig.json
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\bin\Debug\netcoreapp3.1\Gym.runtimeconfig.dev.json
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\bin\Debug\netcoreapp3.1\Gym.dll
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\bin\Debug\netcoreapp3.1\Gym.pdb
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.csproj.AssemblyReference.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.AssemblyInfoInputs.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.AssemblyInfo.cs
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.csproj.CoreCompileInputs.cache
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.dll
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.pdb
+C:\Users\Mytag\Downloads\01. Structure_Skeleton (4)\OOPExam 11-12-2021\Gym\obj\Debug\netcoreapp3.1\Gym.genruntimeconfig.cache
