@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3DhduS4crVG4UIA2cdDQ8me52icICr9IDBxaH4W+th0VXrr1tysJdEeCo1PwALNS//si9lhQ7UUVu26SYkP4tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mytag\\Downloads\\01. Structure_Skeleton (4)\\OOPExam 11-12-2021\\UnitTests\\Gyms\\Gyms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mytag\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
