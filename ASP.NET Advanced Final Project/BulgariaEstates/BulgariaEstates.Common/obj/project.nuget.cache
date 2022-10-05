@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vnJPQvH/RRShltYNdhGO7iN7GG7NAllLBj1Pxdn4f3ARO5LfSRH6jPX/AEsH9EKpv21zGCbhhbdy9ZcJwpzyRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PTO\\Desktop\\ASP.NET Advanced Final Project\\BulgariaEstates\\BulgariaEstates.Common\\BulgariaEstates.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PTO\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\PTO\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}
