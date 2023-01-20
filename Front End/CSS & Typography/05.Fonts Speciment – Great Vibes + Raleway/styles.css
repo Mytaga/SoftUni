@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+@import url('https://fonts.cdnfonts.com/css/great-vibes');
+
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.a {
+    list-style-type: square;
+}
+
+.b {
+    list-style-type: disc;
+}
+
+.c {
+    list-style-type: circle;
+}
