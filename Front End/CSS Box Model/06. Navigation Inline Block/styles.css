@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-right: 70px;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav h1,
+nav ul,
+nav ul li {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(82, 183, 82);
+}
+
+p {
+    line-height: 20px;
+}
