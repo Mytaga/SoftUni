@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+    line-height: 20px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, serif;
+}
+
+p {
+    color: rgb(51, 51, 51);
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+article {
+    width: 70%;
+    display: inline-block;
+}
+
+aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
