@@ -1,0 +1,117 @@
+body {
+    padding: 3% 7%;
+    background-color: rgb(238, 238, 238);
+}
+
+main{
+    display: inline-block;
+    width: 70%;
+}
+
+.head {
+    position: relative;
+    left: 0px;
+    border-bottom: 5px solid black;
+}
+
+.head p {
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transform: translateY(40%);
+}
+
+.head__nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.head .head__nav .nav__item {
+    display: inline-block;
+    letter-spacing: 1.2px;
+}
+
+.head .head__nav .nav__item a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+.head .head__nav .nav__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.first-article-div {
+    position: relative;
+}
+
+.first-article-div__img {
+    float: right;
+    margin: 2%;
+}
+
+.main__article-second__first-section__paragraph-left,
+.main__article-second__first-section__paragraph-right {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+
+}
+
+.main__article-second__first-section__paragraph-left {
+    border-right: 3px solid rgba(208, 205, 207, 0.56);
+}
+
+
+div.main__article-second__first-section__paragraph-right {
+    position: absolute;
+    width: 25%;
+    padding-left: 5%;
+    color: rgba(32, 31, 31, 0.56);
+}
+
+.main__article-second__first-section span {
+    position: absolute;
+    color: rgba(32, 31, 31, 0.56);
+    padding: 0px;
+    bottom: -12%;
+    right: 0%;
+}
+
+.main__article-second__second-section {
+    width: 70%;
+}
+
+
+.main__article-second__second-section-div__img {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.main__article-second__second-section-div__img,
+.first-article-div__img {
+    border: 0.4rem solid #000;
+    padding: 1%;
+}
+
+.aside {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4%;
+}
+.aside nav li a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif ;
+    font-size: 1em/1.2 ;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
