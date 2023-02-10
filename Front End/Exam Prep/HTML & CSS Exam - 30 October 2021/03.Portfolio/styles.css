@@ -1,0 +1,128 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+
+main {
+    font-family: Raleway;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:20px;
+    height: 1300px;
+}
+
+article {
+    background-color: lightgrey;
+}
+
+span {
+    color: grey;
+    font-weight: lighter;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.first-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    height: 520px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 60px;
+}
+
+.content h1 {
+    font-size: 35px;
+}
+
+.content p {
+    font-style: italic;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img {
+    position: relative;
+    width: 650px;
+    height: 650px;
+    left: 10px;
+    top: 18px;
+}
+
+.second-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    height: 520px;
+}
+
+.second-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-image img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 10px;
+    top: 0px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.second-content h1 {
+    font-size: 35px;
+}
+
+.second-content p {
+    font-style: italic;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.icons li {
+    display: inline-block;
+    background-color: grey;
+}
+
+.icons li a i {
+    padding: 6px;
+    color: white;
+}
+
+.icons li a :nth-child(1){
+    padding: 12px;
+}
