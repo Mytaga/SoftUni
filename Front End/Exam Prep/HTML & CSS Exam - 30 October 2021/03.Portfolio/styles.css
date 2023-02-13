@@ -1,6 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 
+:root {
+    --clr-grey-light: #efefef;
+    --clr-dark: #222222;
+    --clr-dark-sub: #4c4c4c;
+    --clr-white: #fff;
+    --pad-section: 6rem;
+}
+
 main {
     font-family: Raleway;
 }
@@ -8,10 +16,10 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     flex-wrap: wrap;
-    padding:20px;
-    height: 1300px;
+    padding: 20px;
+    width: 1200px;
+    gap: 20px;
 }
 
 article {
@@ -42,7 +50,7 @@ li {
     height: 520px;
 }
 
-.content {
+.first-wrapper .content {
     display: flex;
     flex-direction: column;
     width: 450px;
@@ -57,7 +65,7 @@ li {
     font-style: italic;
 }
 
-.image {
+.first-wrapper .image {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,6 +131,110 @@ li {
     color: white;
 }
 
-.icons li a :nth-child(1){
+.icons li a :nth-child(1) {
     padding: 12px;
+}
+
+.third-wrapper {
+    height: 520px;
+}
+
+.third-wrapper img {
+    height: 520px;
+    width: 1400px;
+}
+
+.fourth-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 520px;
+    justify-content: space-between;
+}
+
+.fourth-wrapper .content {
+    padding: 80px;
+    width: 35%;
+}
+
+.fourth-wrapper .image {
+    width: 65%;
+    padding: 50px;
+}
+
+.fourth-wrapper .image img {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    left: 80px;
+    top: 20px
+}
+
+.fifth-wrapper {
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fifth-wrapper img {
+    width: 33.33%;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+}
+
+.fifth-wrapper img:nth-child(2) {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+.sixth-wrapper {
+    text-align: center;
+    margin: auto;
+    width: 980px;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 10px;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+        "email subject"
+        "msg msg"
+        "btn btn";
+}
+
+.form .email {
+    grid-area: email;
+    border: 1px solid var(--clr-dark);
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.form .subject {
+    grid-area: subject;
+    border: 1px solid var(--clr-dark);
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.form .message {
+    grid-area: msg;
+    border: 1px solid var(--clr-dark);
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.form button {
+    grid-area: btn;
+    border: 1px solid var(--clr-dark);
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    padding: 0.5rem;
 }
