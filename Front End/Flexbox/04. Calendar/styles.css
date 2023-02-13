@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 65vw;
+}
+
+.container span {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex .week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-flex .week .week__item.workweek,
+.container-flex .week .week__item.weekend {
+    width: 100%;
+}
+
+.container-flex .week .week__item {
+    width: 20%;
+}
+
+
+.container-flex .week .week__item:nth-child(8),
+.container-flex .week .week__item:nth-child(9) {
+    width: 50%;
+}
+
+.container-flex .notes {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-flex .notes span {
+    height: 50%;
+}

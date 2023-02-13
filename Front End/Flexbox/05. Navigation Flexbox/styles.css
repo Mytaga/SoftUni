@@ -1,0 +1,24 @@
+body {
+    padding: 30px;
+    width: 80%;
+}
+
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(0,0,0);
+    border-bottom-style: solid;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+a {
+    color:rgb(0, 153, 0);
+    margin-left: 15px;
+}

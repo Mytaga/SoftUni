@@ -1,0 +1,20 @@
+body,
+ul,
+li {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+li{
+    border: 0.4rem solid black;
+    justify-content: center;
+    padding: 1rem;
+    flex: 1 0 28%;
+}
