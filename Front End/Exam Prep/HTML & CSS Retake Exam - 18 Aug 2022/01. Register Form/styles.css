@@ -1,0 +1,118 @@
+body {
+    background-image: url('images/background.png');
+}
+
+.container {
+    background-image: url('images/form-background.png');
+    background-position: center;
+    border-radius: 30px;
+    width: 900px;
+    height: 600px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-display: swap;
+    letter-spacing: 2px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.container h1 {
+    padding-left: 100px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    
+    grid-template-areas: "fname lname"
+                          "email email"
+                          "pass pass"
+                          "confirm confirm"
+                          "check check"
+                          "button button";
+    width: 80%;
+    margin-left: 60px;
+    gap: 20px;
+}
+
+.form .label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0px;
+    margin-bottom: 4px;
+}
+
+.firstname {
+    grid-area: fname;
+}
+
+.lastname {
+    grid-area: lname;
+}
+
+.email {
+    grid-area: email;
+}
+
+.password {
+    grid-area: pass;
+}
+
+.confirm {
+    grid-area: confirm;
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px lightgray solid;
+    height: 40px;
+}
+
+.firstname .input {
+    width: 180px;
+}
+
+.lastname .input {
+    width: 180px;
+}
+
+.email .input {
+    width: 400px;
+}
+
+.password .input {
+    width: 400px;
+}
+
+.confirm .input {
+    width: 400px;
+}
+
+.checkbox {
+    width: 400px;
+    grid-area: check;
+}
+
+.checkbox label {
+    font-size: 12px;
+}
+
+.checkbox input {
+    border: 1px lightgray solid;
+}
+
+.button {
+    grid-area: button;
+}
+
+.button button {
+    padding: 12px 24px;
+    border-radius: 20px;
+    background-color: rgb(168, 52, 52);
+    color: white;
+    border: none;
+    font-size: 14px;
+    margin-left: 120px
+}
