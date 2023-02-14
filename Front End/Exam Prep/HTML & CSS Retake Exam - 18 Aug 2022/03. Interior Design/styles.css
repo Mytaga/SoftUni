@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-brown: #9b9189;
+    --light-brown: #f2f0f3;
+    --med-brown: #bab1ad;
+    --green-brown: #67784d;
+    --headings: #333333;
+    --shadow: #929090;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.first-section {
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.header {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+    box-shadow: 0 0 10px 1px #929090;
+}
+
+.main-header h1 {
+    font-family: "Abril Fatface", cursive;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    width: 200px;
+    border-bottom: white 2px solid;
+    margin-left: 6px;
+}
+
+.header p {
+    font-weight: 100;
+    font-family: Roboto, sans-serif;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.text {
+    float: right;
+    width: 320px;
+    height: 350px;
+    background-image: linear-gradient(to right, var(--dark-brown), #c9c7c6);
+    color: white;
+    text-align: right;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px 1px #929090;
+    margin-right: 60px;
+}
+
+.paragraph {
+    text-align: right;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    padding-right: 12px;
+    padding-left: 12px;
+    
+}
+
+.big {
+    margin-top: -50px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    color: #8d8581;
+}
+
+
+.second-section {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 62%;
+    padding: 50px 100px;
+    background-color:#e7dede;
+}
+
+.left h1 {
+    font-family: "Abril Fatface", cursive;
+}
+
+.left span {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.left p {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.left i {
+    margin-right: 8px;
+    color: white;
+    border-radius: 100%;
+    padding: 3px;
+    background-color: black;
+}
+
+.left .contact {
+    margin-top: 100px;
+}
+
+.left .contacts {
+    border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: left;
+    gap: 10px;
+}
+
+.left .contacts span {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.left .email {
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    background-color:#a39c98;
+    color: white;
+}
+
+.left .button {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #67784d;
+    color: white;
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.right {
+    width: 38%;
+    padding: 30px;
+    background-color: #a39c98;
+}
+
+.right h1 {
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    font-weight: lighter;
+}
+
+.right p {
+    text-transform: uppercase;
+    position: relative;
+    top: -50px;
+}
+
