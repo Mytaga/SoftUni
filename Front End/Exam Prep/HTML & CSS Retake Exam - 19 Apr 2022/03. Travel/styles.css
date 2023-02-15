@@ -1,0 +1,217 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+.first-navigation {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.first-navigation li {
+    display: block;
+}
+
+.first-navigation li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-navigation li a p {
+    font-size: 14px;
+    color: gray;
+}
+
+.first-navigation li a i {
+    font-size: 16px;
+}
+
+.second-navigation {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.second-navigation li {
+    list-style: none;
+}
+
+.second-navigation li a {
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.first-section {
+    background-color: darkgoldenrod;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    background-color: darkgoldenrod;
+    padding: 20px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image img {
+    overflow: hidden;
+}
+
+.shuttle {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: transparent;
+    top: 280px;
+    left: 100px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.shuttle h3, p{
+    color: white;
+}
+
+.shuttle p {
+    font-size: 18px;
+}
+
+.shuttle button {
+    margin-top: 20px;
+    background: transparent;
+    color: rgb(230, 167, 10);
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.card {
+    background: rgb(150, 103, 11);
+    background: linear-gradient(90deg,
+            rgba(150, 103, 11, 1) 0%,
+            rgba(208, 172, 60, 1) 100%);
+    color: white;
+    align-items: center;
+    margin: 0px;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.info {
+    width: 480px;
+    margin: auto;
+}
+
+.info p i {
+    margin-right: 5px;
+}
+
+.button {
+    width: 480px;
+    margin: auto;
+}
+
+.button button {
+    position: relative;
+    left: 180px;
+    padding: 10px 20px;
+    background-color: darkgoldenrod;
+    border: 2px solid white;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.header{
+    width: 800px;
+    margin: auto;
+}
+.header h1 {
+    text-align: center;
+    color: #4f5775;
+    font-size: 30px;
+}
+
+.header p {
+    color:#4f5775;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.images img {
+    border: 2px solid #4f5775;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.third-section {
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.newsletter h4{
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 15px;
+    color: white;
+    position: relative;
+    top: 15px;
+    display: inline-block;
+}
+
+.newsletter p {
+    font-size: 12px;
+    color: white;
+    padding-left: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.footer p{
+    color: black;
+    text-align: center;
+}
+
+.subscribe button {
+    display: inline-block;
+    margin-right: 30px;
+    background-color: darkgoldenrod;
+    color: white;
+    border: 2px solid white;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
