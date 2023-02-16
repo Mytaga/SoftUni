@@ -1,0 +1,69 @@
+section {
+    background-image: url('image/image1.png');
+    font-family: "PT Serif";
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px green dotted;
+    padding: 10px;
+    display: inline;
+}
+
+.instructions {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    padding: 20px;
+}
+
+.ingredients{
+    padding: 20px;
+}
+
+.ingredients p span {
+    color: green;
+    font-weight: bold;
+}
+
+.info {
+    padding: 20px;
+}
+
+table {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+.right img {
+    padding: 10px;
+    object-fit: cover;
+    object-position: center;
+    width: 800px;
+    height: 450px;
+    position: relative;
+    top: 10px;
+}
