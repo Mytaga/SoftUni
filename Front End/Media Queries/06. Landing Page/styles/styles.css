@@ -1,0 +1,313 @@
+@import url("./reset.css");
+@import url("./buttons.css");
+@import url("./typography.css");
+@import url("./forms.css");
+@import url("./variables.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@400;500&display=swap');
+
+body {
+    background: var(--clr-bg);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+
+}
+main {
+    margin: 0 auto;
+}
+
+/* -----------------------
+    Header & Navigation
+-------------------------- */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    
+}
+
+.header .logo__purple {
+    color: var(--clr-purple);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header .logo__normal {
+    color: var(--clr-gray);
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 500;
+    line-height: 8px;
+}
+
+.header .nav__items {
+    display: flex;
+    align-items: center;
+}
+
+.header .item .link {
+    text-decoration: none;
+    color: var(--clr-gray);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0 1rem;
+}
+
+/* -----------------------
+    Section Need a website
+    ----------------------- */
+.need {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.need .need__title {
+    padding-bottom: 0.7rem;
+}
+
+.need .need__content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+    
+}
+
+.need .need__container {
+    width: 60%;
+    max-width: 34rem;
+}
+
+.need__earth>i {
+    font-size: 8rem;
+
+}
+/* -----------------------
+    Section Our Team
+    ----------------------- */
+
+    .team {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team__title {
+        margin-bottom: 1rem;
+    }
+
+    .team__divider {
+        width: 5%;
+        border: 2px solid var(--clr-black);
+        margin-bottom: 2rem;
+    }
+    
+    .team__cards {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .team__grid {
+        width: 33%;
+    }
+    .team__img {
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+    .team__img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .team__grid li {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    
+    }
+    .team__name {
+        font-weight: bold;
+        margin: 1rem 0 0 0;
+    }
+    .team__position {
+        margin-bottom: 1rem;
+    }
+    .team__content {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+/* ----------------
+    Section Sign
+    -------------- */
+
+.sign {
+    background-color: var(--clr-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    margin: 2rem 0 0 0;
+}
+.sign__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign__title {
+    color: var(--clr-white);
+    margin-bottom: 1rem;
+}
+
+.sign__divider {
+    width: 100px;
+    border: 2px solid var(--clr-black);
+    margin-bottom: 2rem;
+}
+
+/* -----------------------
+    Section Testimonails
+    ---------------------- */
+
+.testimonials {
+    background: repeating-linear-gradient(135deg, #fbfbfb 0, #fbfbfb 10%, transparent 0, transparent 50%);
+    background-size: 2em 2em;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 17px 6px -7px rgba(188, 188, 194, 1);
+    -moz-box-shadow: 0px 17px 6px -7px rgba(188, 188, 194, 1);
+    box-shadow: 0px 17px 6px -7px rgba(188, 188, 194, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+.testimonials__title {
+    margin: 2rem 0 1rem 0;
+}
+
+.testimonials__divider {
+    width: 5%;
+    border: 2px solid var(--clr-black);
+    margin-bottom: 2rem;
+}
+
+.testimonials__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 90%;
+    row-gap: 20px;
+
+}
+.testimonials__grid {
+    width: 33%;
+}
+.testimonials__grid li{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+
+.testimonials__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.testimonials__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials__content {
+    width: 80%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.testimonials__name {
+    font-weight: bold;
+}
+
+/* -----------------
+    Footer
+--------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    column-gap: 50px;
+    padding-bottom: 50px;
+
+}
+.footer__logo {
+    width: 33%;
+}
+.footer__logo__purple {
+    color: var(--clr-black);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer__logo__normal {
+    font-weight: bold;
+    line-height: 30px;
+    
+}
+
+.footer__sitemap {
+    width: 33%;
+}
+.sitemap__items {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.sitemap__item {
+    width: 50%;
+}
+.sitemap__item a {
+    text-decoration: none;
+    color: black;
+    
+}
+.footer__contacts {
+    width: 33%;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contacts i {
+    display: inline-block;
+}
+.contacts p {
+    display: inline-block;
+}

@@ -1,0 +1,8 @@
+:root {
+    --clr-bg: linear-gradient(45deg,transparent 34%, #fbfbfb 35%, #fbfbfb 40%, transparent 41%, transparent 59%, #fbfbfb  60%, #fbfbfb 65%, transparent 66%),linear-gradient(135deg,transparent 34%, #fbfbfb 35%, #fbfbfb 40%, transparent 41%, transparent 59%, #fbfbfb  60%, #fbfbfb 65%, transparent 66%);
+    --clr-purple: #77157f;
+    --clr-white : white ;
+    --clr-black : black;
+    --clr-gray : #645652;
+
+}
