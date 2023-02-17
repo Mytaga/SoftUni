@@ -1,0 +1,277 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body {
+    font-family: Helvetica;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+}
+
+.intime {
+    font-size: 22px;
+}
+
+.home {
+    border-bottom: 3px solid #008CBA;
+    padding-bottom: 2px;
+}
+
+nav a span{
+    color: #008CBA
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-section .info{
+    position: absolute;
+    top: 260px;
+    left: 320px;
+    width: 500px;
+}
+
+#filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.first-section .info p {
+    position: relative;
+    color: white;
+    font-size: 34px;
+    z-index: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.first-section .info button {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #008CBA;
+    border-radius: 15px;
+    padding: 5px 25px;
+    border: none;
+    font-size: 20px;
+    top: -5px;
+    left: 20px;
+    z-index: 1;
+    margin-bottom: 5px;
+}
+
+.second-section .welcome {
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}   
+
+.second-section .welcome h1{
+    font-size: 30px;
+    color: black;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.second-section .welcome h1 span {
+    border-bottom: 3px solid #008CBA;
+    padding-bottom: 2px;
+}
+.second-section .welcome p{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.second-section .welcome button{
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(64, 63, 63);
+    border-radius: 20px;
+    padding: 8px 35px;
+    font-size: 16px;
+}
+
+.third-section{
+    background-color: rgb(226, 223, 223);
+    padding-bottom: 30px;
+}
+
+.third-section h1{
+    margin-top: 30px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.third-section h1 span{
+    border-bottom: 2px black solid;
+    padding-bottom: 2px;
+}
+
+.third-section .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.third-section .cards .card img {
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.third-section .cards .card .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;   
+}
+
+.third-section .cards .card .content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(64, 63, 63);
+    font-weight: lighter;
+}
+
+.third-section .cards .card .content p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.third-section .cards .card .content button{
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(64, 63, 63);
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 70, 70);
+    color: white;
+}
+
+.fourth-section .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section .subscribe h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.fourth-section .subscribe h1 span {
+    border-bottom: 2px white solid;
+    padding-bottom: 2px;
+}
+
+.fourth-section .subscribe p {
+    font-size: 16px;
+}
+
+.fourth-section .email{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fourth-section .email input {
+    width: 500px;
+    height: 40px;
+    display: inline;
+    background-color: rgb(97, 94, 94);
+    border: none;
+    font-style: italic;
+    font-size: 14px;
+    text-indent: 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.fourth-section .email button {
+    display: inline;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(114, 198, 232);
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.fifth-section {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(64, 61, 61);
+    color: white;
+}
+
+.fifth-section ul {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fifth-section ul li {
+    margin-bottom: 5px;
+}
+
+.fifth-section ul .first{
+    font-size: 18px;
+}
+
+.fifth-section ul .sofia{
+    margin-bottom: 20px;
+}
+
+.fifth-section ul i{
+    margin-left: 10px;
+}
