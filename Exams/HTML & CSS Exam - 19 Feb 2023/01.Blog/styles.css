@@ -1,0 +1,68 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card  {
+    background-color: hsl(40deg 78% 84%);
+    display: grid;
+    grid-template-columns: 800px 300px;
+    max-width: 1150px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+}
+
+
+.image {
+    border: 1px solid hsl(327deg 10% 36%);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.image p {
+    background-color: hsl(327deg 10% 36%);
+    color: white;
+    padding: 6px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+.image img {
+    overflow: hidden;
+    width: 360px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.categories {
+    margin-top: 60px;
+    width: 180px;
+}
+
+.categories ul li {
+    margin-bottom: 5px;
+    text-indent: 1;
+    color: hsl(327deg 10% 36%);
+    font-weight: 600;
+}
+
+.categories ul li i {
+    color: hsl(327deg 10% 36%);
+    margin-left: 4px;
+}
+
+.categories ul li:first-child{
+    margin-bottom: 20px;
+}
